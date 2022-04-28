@@ -4,6 +4,7 @@ public class JavaStringTokens {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String s = scan.nextLine();
+        scan.close();
         // Write your code here.
 
         s = s.trim();
@@ -22,7 +23,6 @@ public class JavaStringTokens {
                 System.out.println(strSplit[i]);
             }
         }
-        scan.close();
     }
 }
 
